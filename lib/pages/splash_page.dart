@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:phonebook/pages/home_page.dart';
@@ -33,6 +34,7 @@ class _SplashPageState extends State<SplashPage> {
             children: const [
               Text('Note Book'),
               Text('Ami 2nd Text'),
+              Text('Update and push'),
             ],
           ),
         ),
