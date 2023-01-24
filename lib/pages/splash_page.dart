@@ -30,8 +30,9 @@ class _SplashPageState extends State<SplashPage> {
         color: Colors.blue,
         child: Center(
           child: Column(
-            children: [
-              Text('Note Book')
+            children: const [
+              Text('Note Book'),
+              Text('Ami 2nd Text'),
             ],
           ),
         ),
